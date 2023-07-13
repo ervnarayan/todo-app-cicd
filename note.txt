@@ -1,4 +1,5 @@
-[-] Create file & folder structure
-[-] Install all dependencies, Express, Ejs, body-parser, method-override, sanitizer, dotenv, esm ..etc
-[-] Create todo app
-[-] Create Docker Container
+[+] Create file & folder structure.
+[+] Install all dependencies, Express, Ejs, body-parser, method-override, sanitizer, dotenv, esm ..etc.
+[+] Create server setup using express.
+[-] Create todo app.
+[-] Create Docker Container.

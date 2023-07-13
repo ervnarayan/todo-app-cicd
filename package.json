@@ -4,7 +4,8 @@
   "description": "This is todo app biult-in using node js and ejs. For testing CI/CD pipeline on AWS.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon -r esm app.js",
+    "production": "node -r esm app.js"
   },
   "repository": {
     "type": "git",
