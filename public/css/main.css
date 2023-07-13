@@ -1,0 +1,7 @@
+a {text-decoration: none;color: black;}
+.navbar {--bs-navbar-padding-y: 0.3rem;}
+.navbar-brand img{max-width: 55px;}
+.form-group.addTask{position: absolute;bottom:0;width:100%;}
+.taskList{margin-top: 2rem;overflow-y: auto;height: 70vh;padding-right:1rem;}
+.alert{max-height: 90px;}
+.del-btn{position: absolute;right: 2rem; top: 0.5rem;}
