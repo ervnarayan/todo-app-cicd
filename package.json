@@ -1,7 +1,7 @@
 {
   "name": "todo-app",
   "version": "1.0.0",
-  "description": "This is todo app biult-in using node js and ejs. For testing CI/CD pipeline on AWS.",
+  "description": "This is todo app built-in using nodejs and ejs. For testing CI/CD pipeline on AWS.",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon -r esm app.js",
