@@ -4,8 +4,8 @@
   "description": "This is todo app built-in using nodejs and ejs. For testing CI/CD pipeline on AWS.",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon -r esm app.js",
-    "production": "node -r esm app.js"
+    "dev": "nodemon -r -L esm app.js",
+    "prod": "node -r -L esm app.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
   "devDependencies": {
     "chai": "^4.3.7",
     "mocha": "^10.2.0",
+    "nodemon": "^3.0.1",
     "nyc": "^15.1.0",
     "supertest": "^6.3.3"
   }
